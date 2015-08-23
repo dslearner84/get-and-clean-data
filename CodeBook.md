@@ -94,8 +94,8 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 ## Libraries required for creating the tidy dataset.
 
-```dplyr
-data.table```
+* dplyr
+* data.table
 
 ## Download and Unzip data
 
