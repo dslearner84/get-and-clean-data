@@ -2,7 +2,8 @@
 ## Introduction
 The goal is to prepare tidy data from the data downloaded from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-I should create one R script called `run_analysis.R` that does the following. 
+I should create one R script called `run_analysis.R` that does the following:
+
 1. Merges the training and the test sets to create one data set.
 1. Extracts only the measurements on the mean and standard deviation for each measurement. 
 1. Uses descriptive activity names to name the activities in the data set
@@ -16,6 +17,7 @@ get_data.R - R scipt to download the data set file and unzip it in the working d
 CodeBook.md - Description about the data set and explanation about how the data is transformed to tidy data set.
 
 ## Steps to create tidy data set
+
 1. Clone this repository.
 1. Set the desired working directory using setwd().
 1. Run get_data.R to download and unzip the data.
