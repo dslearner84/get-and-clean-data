@@ -1,4 +1,3 @@
-setwd("/media/sf_shared/data")
 library(dplyr)
 library(data.table)
 
@@ -51,7 +50,7 @@ names(data)
 # Labelling the dataset with descriptive names
 names(data)<-gsub("-mean\\(\\)", "mean", names(data))
 names(data)<-gsub("-std\\(\\)", "STD", names(data), ignore.case = TRUE)
-names(data)<-gsub("-freq()", "frequency", names(data))
+names(data)<-gsub("freq\\(\\)", "frequency", names(data), ignore.case = TRUE)
 names(data)<-gsub("^t", "time", names(data))
 names(data)<-gsub("^f", "frequency", names(data))
 names(data)<-gsub("Acc", "accelerometer", names(data))

@@ -25,3 +25,5 @@ This repository has the following files:
 1. Run run_analysis.R script.
 
 The tidy data set text file will be created in the working directory you have set.
+
+**For information on how the run_analysis.R works, please check CodeBook.md file.**
