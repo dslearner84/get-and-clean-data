@@ -12,9 +12,10 @@ I should create one R script called `run_analysis.R` that does the following:
 
 ## About this repository
 This repository has the following files:
-run_analysis.R - R script to create the tidy data set. This reqires data set that is already downloaded and unzipped.
-get_data.R - R scipt to download the data set file and unzip it in the working directory. This file is required only if the data file is not manually downloaded and unzipped.
-CodeBook.md - Description about the data set and explanation about how the data is transformed to tidy data set.
+
+* run_analysis.R - R script to create the tidy data set. This reqires data set that is already downloaded and unzipped.
+* get_data.R - R scipt to download the data set file and unzip it in the working directory. This file is required only if the data file is not manually downloaded and unzipped.
+* CodeBook.md - Description about the data set and explanation about how the data is transformed to tidy data set.
 
 ## Steps to create tidy data set
 
@@ -22,4 +23,5 @@ CodeBook.md - Description about the data set and explanation about how the data 
 1. Set the desired working directory using setwd().
 1. Run get_data.R to download and unzip the data.
 1. Run run_analysis.R script.
+
 The tidy data set text file will be created in the working directory you have set.
