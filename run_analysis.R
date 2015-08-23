@@ -49,8 +49,8 @@ data$activity <- as.factor(data$activity)
 # Check the names of columns in 'data'
 names(data)
 # Labelling the dataset with descriptive names
-names(data)<-gsub("-mean()", "mean", names(data))
-names(data)<-gsub("-STD()", "STD", names(data))
+names(data)<-gsub("-mean\\(\\)", "mean", names(data))
+names(data)<-gsub("-std\\(\\)", "STD", names(data), ignore.case = TRUE)
 names(data)<-gsub("-freq()", "frequency", names(data))
 names(data)<-gsub("^t", "time", names(data))
 names(data)<-gsub("^f", "frequency", names(data))
