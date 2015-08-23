@@ -17,6 +17,7 @@ get_data.R - R scipt to download the data set file and unzip it in the working d
 CodeBook.md - Description about the data set and explanation about how the data is transformed to tidy data set.
 
 ## Steps to create tidy data set
+
 1. Clone this repository.
 1. Set the desired working directory using setwd().
 1. Run get_data.R to download and unzip the data.

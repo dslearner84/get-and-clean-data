@@ -93,7 +93,7 @@ tBodyGyroJerkMean
 # Transform the Data
 
 ## Libraries required for creating the tidy dataset.
-`dplyr
+`dplyr,
 data.table`
 
 ## Download and Unzip data
