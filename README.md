@@ -22,4 +22,5 @@ CodeBook.md - Description about the data set and explanation about how the data 
 1. Set the desired working directory using setwd().
 1. Run get_data.R to download and unzip the data.
 1. Run run_analysis.R script.
+
 The tidy data set text file will be created in the working directory you have set.
